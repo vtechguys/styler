@@ -1,0 +1,1 @@
+export const STYLE_TAG_ID = 'css-in-js__styler';

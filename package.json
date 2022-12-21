@@ -1,0 +1,15 @@
+{
+  "name": "styler",
+  "version": "1.0.0",
+  "description": "a small css-in-js lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "react": "^18.2.0"
+  }
+}
