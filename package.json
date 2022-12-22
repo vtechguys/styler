@@ -1,10 +1,9 @@
 {
   "name": "@vtechguys/styler",
-  "version": "1.0.3",
+  "version": "0.0.4",
   "description": "a small css-in-js lib",
   "keywords": [
     "css-in-js",
-    "styled-components",
     "emotion",
     "react"
   ],
@@ -14,11 +13,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "clsx": "^1.2.1",
-    "react": "^18.2.0"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vtechguys/styler.git"

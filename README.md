@@ -2,14 +2,14 @@
 
 ## Simplicity is the key
 
-The simplest way writing css-in-js in any framework: react/vue/angular. Is is native css-in-js library with just barbone to help you get started on any project with css-in-js.
+The simplest way writing css-in-js in any framework: react/vue/angular. It is native css-in-js library with just barbone to help you get started on any project with css-in-js.
 
 ## Features
 
 - Framework agnostic
 - Server side rendering
 - emotion.js syntax for easy onboarding.
-- styled-component for react lovers use [@vtechguys/styler-styled](https://www.npmjs.com/package/@vtechguys/styler-styled)
+- for styled-component for react lovers use package [@vtechguys/styler-styled](https://www.npmjs.com/package/@vtechguys/styler-styled)
 - Size: 1.6KB and Gzipped: 889 Bytes
 
 ## Use
@@ -54,7 +54,7 @@ function Box() {
 }
 ```
 
-The keyframes and styled used like:
+The keyframes like:
 
 ```jsx
 const growAnimationName = keyframes({
@@ -62,17 +62,19 @@ const growAnimationName = keyframes({
   to: { transform: "scale(2) " },
 });
 
-const Link = styled("a")({
-  backgroundColor: "orange",
-  color: "white",
-  fontWeight: 600,
-  fontSize: 16,
-  padding: "8px 16px",
-  margin: "20px",
-  "&:hover": {
-    animation: `${growAnimationName} 500ms ease-in-out`,
-  },
-});
+const styles = {
+  link: css({
+    backgroundColor: "orange",
+    color: "white",
+    fontWeight: 600,
+    fontSize: 16,
+    padding: "8px 16px",
+    margin: "20px",
+    "&:hover": {
+      animation: `${growAnimationName} 500ms ease-in-out`,
+    },
+  }),
+};
 ```
 
 For server side rendering:
