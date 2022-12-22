@@ -10,6 +10,7 @@ The simplest way writing css-in-js in any framework: react/vue/angular. Is is na
 - Server side rendering
 - emotion.js syntax for easy onboarding.
 - styled-component for react lovers
+- Size: 1.6KB and Gzipped: 889 Bytes
 
 ## Use
 

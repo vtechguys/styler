@@ -1,7 +1,13 @@
 {
   "name": "@vtechguys/styler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a small css-in-js lib",
+  "keywords": [
+    "css-in-js",
+    "styled-components",
+    "emotion",
+    "react"
+  ],
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
