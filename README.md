@@ -1,8 +1,8 @@
 # Styler
 
-## The simplest css-in-js library
+## Simplicity is the key
 
-The simple way writing css-in-js in any framework: react/vue/angular. Is is native css-in-js library with just barbone to help you get started on any project with css-in-js.
+The simplest way writing css-in-js in any framework: react/vue/angular. Is is native css-in-js library with just barbone to help you get started on any project with css-in-js.
 
 ## Features
 
