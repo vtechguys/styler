@@ -1,6 +1,6 @@
 # Styler
 
-## Simplicity is the key
+## The simplest css-in-js library
 
 The simple way writing css-in-js in any framework: react/vue/angular. Is is native css-in-js library with just barbone to help you get started on any project with css-in-js.
 
@@ -10,7 +10,6 @@ The simple way writing css-in-js in any framework: react/vue/angular. Is is nati
 - Server side rendering
 - emotion.js syntax for easy onboarding.
 - styled-component for react lovers
-- size 1.6KB gzipped 889 Bytes
 
 ## Use
 
